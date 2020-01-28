@@ -1,0 +1,15 @@
+{
+   "name": "Mark it",
+   "version": "1.0",
+   "description": "Mark moments in youtube video",
+   "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
+   "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+   "options_page": "options.html",
+   "manifest_version": 2
+ }
