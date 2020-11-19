@@ -26,5 +26,5 @@ for (let i = 0; i < channels.length; i++) {
 // var mark = [name, channel, result, note]
 var mark = [channel, note, result]
 delimeter = " | "
-prompt("", channel + delimeter + note + delimeter + result);
+prompt("", channel + delimeter + name + delimeter + result + delimeter + note);
 chrome.storage.sync.set({ lastMark: mark })
